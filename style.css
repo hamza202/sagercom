@@ -1132,6 +1132,8 @@ Home 3 Video Style Slider
 }
 #first-slider .carousel .item img {
   width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
 }
 #first-slider .carousel .item .content-details {
   z-index: 1000;
@@ -1320,7 +1322,7 @@ a.sl-btn:hover i {
 }
 .rs-about .panel .panel-heading h4.panel-title a {
   font-size: 20px;
-  color: #a4a4a4;
+  color: #fff;
   font-weight: 700;
   padding: 14px 20px;
   display: block;
@@ -3158,7 +3160,7 @@ h3.title-border:after {
 .rs-footer .footer-title:after {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: -5px;
   height: 1px;
   width: 50px;
@@ -3168,7 +3170,8 @@ h3.title-border:after {
   padding: 80px 0;
 }
 .rs-footer .footer-top .about-widget img {
-  margin-bottom: 25px;
+  margin-bottom: 0;
+  max-height: 63px;
 }
 .rs-footer .footer-top .recent-post-widget .post-item {
   display: -ms-flexbox;
@@ -3380,7 +3383,7 @@ h3.title-border:after {
   display: inline-block;
 }
 .footer-bottom .footer-bottom-share ul li + li {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .footer-bottom .footer-bottom-share ul li a {
   font-size: 15px;
@@ -4730,4 +4733,9 @@ h3.title-border:after {
 }
 #rs-header .menu-area ul.nav-menu li.current-menu-item a{
   color: #a0a0a0;
+}
+.footer-button button{
+  background-color: #78143a;
+  border: 0;
+  color: #fff;
 }
