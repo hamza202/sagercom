@@ -105,7 +105,7 @@ ul {
   color: #ffffff;
 }
 .sec-spacer {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 .sec-color {
   background-color: #f9f9f9;
@@ -154,11 +154,11 @@ ul {
 }
 .sec-title h3 {
   font-size: 30px;
-  line-height: 20px;
+  line-height: 38px;
   margin-bottom: 0;
   position: relative;
   display: block;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
 .sec-title h3:after {
@@ -1147,7 +1147,7 @@ Home 3 Video Style Slider
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
 }
 .carousel-inner .item .container {
   display: flex;
@@ -3171,7 +3171,7 @@ h3.title-border:after {
 }
 .rs-footer .footer-top .about-widget img {
   margin-bottom: 0;
-  max-height: 63px;
+  max-height: 200px;
 }
 .rs-footer .footer-top .recent-post-widget .post-item {
   display: -ms-flexbox;
