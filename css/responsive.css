@@ -263,13 +263,13 @@
 	}
 	#rs-header .btm-toolbar,
 	.full-width-header #rs-header .menu-area{
-		background: #c3c3c3 !important;
+		background: #222 !important;
 	}
 	#rs-header .menu-area .logo-area{
 		text-align: center;
 		line-height: 0;
 		padding: 30px 0;
-		background: #c3c3c3;
+		background: #222;
 	}
 	#rs-header .menu-sticky.sticky .logo-area{
 		height: auto;

@@ -404,6 +404,7 @@ ul {
 .full-width-header #rs-header .main-menu {
   border-top: 1px solid #464646;
   border-bottom: 1px solid #464646;
+  background: rgba(51,51,51,0.6);
 }
 .full-width-header #rs-header .menu-area.menu-sticky.sticky,
 .full-width-header #rs-header .menu-area.menu-sticky4.sticky4 {
@@ -462,7 +463,7 @@ ul {
 .full-width-header #first-slider h1 {
   background: rgba(122, 21, 59, 0.6);
   padding: 10px 20px;
-  font-size: 50px;
+  font-size: 38px;
   color: #fff;
 }
 .full-width-header #first-slider .item p {
@@ -626,6 +627,9 @@ ul {
   display: inline-block;
   vertical-align: middle;
   max-height: 210px;
+}
+#rs-header .menu-area .logo-area a img.small-logo{
+  display: none;
 }
 #rs-header .menu-area ul.nav-menu li:hover ul li a,
 #rs-header .menu-area ul.nav-menu li ul li:hover ul li a {
@@ -1147,7 +1151,7 @@ Home 3 Video Style Slider
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
 }
 .carousel-inner .item .container {
   display: flex;
@@ -1549,6 +1553,15 @@ h3.title-border:after {
     margin-bottom: 30px;
   }
 }
+@media screen and (max-width: 991px) {
+  .big-logo{
+    display: none !important;
+  }
+  .small-logo{
+    display: inline-block !important;
+  }
+}
+
 .services-section .single-service .service-img {
   position: relative;
 }
@@ -2021,7 +2034,7 @@ h3.title-border:after {
   top: 0;
 }
 .rs-project.filter-slider {
-  padding-bottom: 92px;
+  padding-bottom: 50px;
 }
 .rs-project.project-style-2 {
   padding-bottom: 80px;
@@ -3170,8 +3183,8 @@ h3.title-border:after {
   padding: 80px 0;
 }
 .rs-footer .footer-top .about-widget img {
-  margin-bottom: 0;
   max-height: 200px;
+  margin: 0 auto;
 }
 .rs-footer .footer-top .recent-post-widget .post-item {
   display: -ms-flexbox;
@@ -4731,8 +4744,8 @@ h3.title-border:after {
 .full-width-header #rs-header .menu-area .logo-area{
   margin-bottom: 10px;
 }
-#rs-header .menu-area ul.nav-menu li.current-menu-item a{
-  color: #a0a0a0;
+#rs-header .menu-area ul.nav-menu li.current-menu-item > a{
+  color: #f6dbdb;
 }
 .footer-button button{
   background-color: #78143a;
