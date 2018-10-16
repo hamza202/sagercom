@@ -716,7 +716,7 @@
 <!-- Counter Down Section End Here-->
 
 <!-- Footer Start -->
-<?include 'footer.php'?>
+<?php include 'footer.php'?>
 <!-- Footer End -->
 
 <!-- start scrollUp  -->

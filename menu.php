@@ -1,7 +1,7 @@
 <nav class="rs-menu">
     <ul class="nav-menu">
         <!-- Home -->
-        <li class="current-menu-item"><a href="#"
+        <li class="current-menu-item"><a href="index.php"
                                          class="home">الرئيسية</a>
 
         </li>
@@ -32,7 +32,7 @@
         <!--End Icons -->
 
         <!--Project Menu Start-->
-        <li><a href="project.html">تواصل معنا</a>
+        <li><a href="#">تواصل معنا</a>
 
         </li>
         <!--Project Menu End-->
