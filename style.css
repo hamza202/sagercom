@@ -490,7 +490,7 @@ ul {
   background: #101010;
   padding: 7px 0;
 }
-.toolbar-contact{
+.index .toolbar-contact{
   padding-top: 110px;
 }
 #rs-header .toolbar-top-area .toolbar-contact ul {
@@ -506,7 +506,7 @@ ul {
 #rs-header .toolbar-top-area .toolbar-contact ul li i {
   font-weight: 600;
   font-size: 14px;
-  margin-right: 10px;
+  margin-left: 10px;
   color: #78143a;
 }
 #rs-header .toolbar-top-area .toolbar-contact ul li a {
@@ -517,13 +517,13 @@ ul {
   color: rgba(255, 255, 255, 0.7);
 }
 #rs-header .toolbar-top-area .toolbar-sl-share ul {
-  text-align: right;
+  text-align: left;
 }
 #rs-header .toolbar-top-area .toolbar-sl-share ul li {
   display: inline-block;
 }
 #rs-header .toolbar-top-area .toolbar-sl-share ul li + li {
-  margin-left: 15px;
+  margin-right: 15px;
 }
 #rs-header .toolbar-top-area .toolbar-sl-share ul li a {
   display: block;
@@ -618,6 +618,7 @@ ul {
 #rs-header .menu-area .logo-area a {
   font-weight: 700;
   font-size: 27px;
+  text-align: left;
   color: #78143a;
   display: block;
   text-transform: lowercase;
@@ -1400,7 +1401,7 @@ h3.title-border:after {
   width: 100px;
   background: #78143a;
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 .vision-section .vision-img {
   position: relative;
@@ -1764,12 +1765,12 @@ h3.title-border:after {
 }
 .services-section .services-btm ul li {
   position: relative;
-  padding-left: 30px;
+  padding-right: 30px;
 }
 .services-section .services-btm ul li:before {
   content: "\f00c";
   font-family: FontAwesome;
-  left: 0;
+  right: 0;
   position: absolute;
   top: 0;
   z-index: 99999;
@@ -3574,7 +3575,6 @@ h3.title-border:after {
     19. Counter up
   ---------------------------------------*/
 .counter-top-area {
-  background: url(images/about/counter-up.jpg) no-repeat scroll 0 0;
   background-attachment: fixed;
   transition: all 0.3s ease 0s;
   background-size: cover;
@@ -3590,7 +3590,7 @@ h3.title-border:after {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(238, 238, 238, 0.68);
+  background: #fff;
   width: 100%;
   height: 100%;
 }
@@ -3635,7 +3635,10 @@ h3.title-border:after {
   font-size: 60px;
 }
 .counter-top-area .rs-counter-list .glyph-icon:hover {
-  color: #fff;
+  color: #6f6f6d;
+}
+.counter-top-area  [class*=" flaticon-"]:before{
+  margin-left: 0;
 }
 /* ------------------------------------
     20. Breadcrumbs
@@ -3678,14 +3681,14 @@ h3.title-border:after {
   padding: 4px 20px;
 }
 .rs-breadcrumbs ul li {
-  color: #78143a;
+  color: #ff92bc;
   display: inline-block;
   font-size: 14px;
   font-weight: 400;
 }
 .rs-breadcrumbs ul li a {
   position: relative;
-  padding-right: 30px;
+  padding-left: 30px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -3698,12 +3701,12 @@ h3.title-border:after {
   height: 15px;
   width: 2px;
   position: absolute;
-  right: 7px;
-  top: 2px;
+  left: 7px;
+  top: 6px;
   transform: rotate(33deg);
 }
 .rs-breadcrumbs ul li a:before {
-  right: 15px;
+  left: 15px;
 }
 .rs-breadcrumbs ul li a:hover {
   color: #78143a;
@@ -4752,24 +4755,72 @@ h3.title-border:after {
   border: 0;
   color: #fff;
 }
+#rs-header .menu-area .logo-area a img.logo-small{
+  max-height: 70px;
+}
+.index #rs-header .menu-area .logo-area a{
+  text-align: center;
+}
 @media (max-width: 991px) {
-  #rs-header .menu-area .logo-area a{
+  .index #rs-header .menu-area .logo-area a{
     float: left;
   }
-  .menu-area{
+  .inner-pages .rs-menu li{
+    z-index: 10;
+  }
+  .inner-pages .rs-menu > ul{
+    top: 65px;
+  }
+  .inner-pages .logo-area{
+    height: 0px;
+  }
+  .inner-pages .menu-area .logo-area a{
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    z-index: 10;
+    height: 21px;
+  }
+  .inner-pages .logo-area{
+    height: 0px !important;
+  }
+  .inner-pages .menu-area .logo-area a img.logo-small{
+    width: auto !important;
+  }
+  .inner-pages .menu-item-has-children{
+    z-index: 9999 !important;
+  }
+  .inner-pages{
     position: relative;
   }
-  .rs-menu-toggle{
+  .inner-pages .rs-menu-toggle{
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    z-index: 10;
+  }
+  .index .menu-area{
+    position: relative;
+  }
+  .index .rs-menu-toggle{
     top: -117px;
     right: 24px;
     position: absolute;
   }
-  .full-width-header #rs-header .menu-area .logo-area{
+  .full-width-header.index #rs-header .menu-area .logo-area{
     padding-top: 15px !important;
   }
 
-  #rs-header .menu-area .logo-area a img {
+  .index #rs-header .menu-area .logo-area a img {
     width: 130px !important;
     padding-bottom: 15px;
   }
+  .inner-pages .menu-area .logo-area{
+    padding: 0 !important;
+  }
+  .inner-pages .menu-sticky{
+    padding-bottom: 75px !important;
+    background-color: rgb(34, 34, 34) !important;
+  }
+
 }

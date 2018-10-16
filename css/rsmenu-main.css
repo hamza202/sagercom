@@ -650,7 +650,7 @@ Version: 1.0.0
 	
 	.nav-menu div.sub-menu-close i {		
 		font-size:16px;
-		margin-right: 5px;
+		margin-left: 5px;
 	}
 	
 	.rs-menu .sub-menu {
@@ -684,6 +684,7 @@ Version: 1.0.0
 	
 	.rs-menu-toggle i {
 		margin-left:10px;
+		font-size: 28px;
 	}
 	
 }

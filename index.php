@@ -9,34 +9,7 @@
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/‏‏logo-small-black.png">
-    <!-- bootstrap v3.3.7 css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.full.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <!-- slick css -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <!-- rsmenu CSS -->
-    <link rel="stylesheet" type="text/css" href="css/rsmenu-main.css">
-    <!-- rsmenu transitions CSS -->
-    <link rel="stylesheet" type="text/css" href="css/rsmenu-transitions.css">
-    <!-- magnific popup css -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-    <!-- flaticon css  -->
-    <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
-    <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <?php include 'style.php'?>
 </head>
 <body class="home1">
 <!--Preloader area start here-->
@@ -56,7 +29,7 @@
 <!--Preloader area end here-->
 
 <!--Full width header Start-->
-<div class="full-width-header">
+<div class="full-width-header index">
     <header id="rs-header">
         <!-- Header Menu Start -->
         <div class="menu-area menu-sticky1">
@@ -94,48 +67,7 @@
                                 <a href="index.html"><img src="images/logo-small.png" alt="logo"></a>
                             </div>
                             <a class="rs-menu-toggle"><i class="fa fa-bars"></i></a>
-                            <nav class="rs-menu">
-                                <ul class="nav-menu">
-                                    <!-- Home -->
-                                    <li class="current-menu-item"><a href="#"
-                                                                     class="home">الرئيسية</a>
-
-                                    </li>
-                                    <!-- End Home -->
-
-                                    <!--About Menu Start-->
-                                    <li><a href="about.html">من نحن</a>
-
-                                    </li>
-                                    <!--About Menu End-->
-
-                                    <!--Service Menu Start-->
-                                    <li><a href="#">كلمة المدير</a>
-
-                                    </li>
-                                    <!--Service Menu End-->
-
-                                    <!-- Drop Down -->
-                                    <li class="current-menu-item current_page_item menu-item-has-children"><a href="#">المشاريع </a>
-                                        <ul class="sub-menu">
-                                            <li> <a href="#">مشروع1</a> </li>
-                                            <li> <a href="#">مشروع2</a> </li>
-                                            <li> <a href="#">مشروع3</a> </li>
-                                            <li> <a href="#">مشروع4</a> </li>
-                                            <li> <a href="#">مشروع5</a> </li>
-                                        </ul>
-                                    </li>
-                                    <!--End Icons -->
-
-                                    <!--Project Menu Start-->
-                                    <li><a href="project.html">تواصل معنا</a>
-
-                                    </li>
-                                    <!--Project Menu End-->
-
-                                    <!--Contact Menu End-->
-                                </ul>
-                            </nav>
+                            <?php include 'menu.php'?>
                         </div>
                     </div>
                 </div>
@@ -784,66 +716,7 @@
 <!-- Counter Down Section End Here-->
 
 <!-- Footer Start -->
-<footer id="rs-footer" class="rs-footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="about-widget">
-                        <img class="img-responsive" src="images/logo3.png" alt="Footer Logo">
-
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="footer-title">روابط سريعة</h3>
-                    <ul class="sitemap-widget">
-                        <li class="active"><a href="#">من نحن</a></li>
-                        <li><a href="#">كلمة المدير</a></li>
-                        <li><a href="#">المشاريع</a></li>
-                        <li><a href="#">تواصل معنا</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 ">
-                    <h3 class="footer-title">تواصل معنا</h3>
-                    <form action="">
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="بريد الكتروني" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <textarea cols="40" rows="2" id="message" name="message" placeholder="رسالة" class="textarea form-control"></textarea>
-                        </div>
-                        <div class="form-group mb-0 footer-button">
-                            <button class="btn-send" type="submit">ارسال</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="copyright">
-                        <p>&copy; 2018 <a href="#">الصغير والحصان الأسود</a>. جميع الحقوق محفوظة.</p>
-                    </div>
-                </div>
-                <div class="col-md-8 col-sm-6">
-                    <div class="text-right ft-bottom-right">
-                        <div class="footer-bottom-share">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+<?include 'footer.php'?>
 <!-- Footer End -->
 
 <!-- start scrollUp  -->
