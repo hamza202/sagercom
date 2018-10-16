@@ -14,7 +14,7 @@
         <!--About Menu End-->
 
         <!--Service Menu Start-->
-        <li><a href="#">كلمة المدير</a>
+        <li><a href="director.php">كلمة المدير</a>
 
         </li>
         <!--Service Menu End-->

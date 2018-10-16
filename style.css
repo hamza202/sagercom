@@ -4761,6 +4761,15 @@ h3.title-border:after {
 .index #rs-header .menu-area .logo-area a{
   text-align: center;
 }
+.director-img-container img{
+  max-height: 150pt;
+}
+.director-img-container{
+  padding: 5px;
+  border: 2px dashed #78143a;
+  border-radius: 5px;
+  margin-left: 15px;
+}
 @media (max-width: 991px) {
   .index #rs-header .menu-area .logo-area a{
     float: left;
