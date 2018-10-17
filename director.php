@@ -89,7 +89,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 class="page-title">من نحن</h1>
+                    <h1 class="page-title">كلمة المدير</h1>
                     <ul>
                         <li>
                             <a class="active" href="index.php">الرئيسية</a>

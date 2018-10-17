@@ -20,7 +20,7 @@
         <!--Service Menu End-->
 
         <!-- Drop Down -->
-        <li class="current-menu-item current_page_item menu-item-has-children"><a href="#">المشاريع </a>
+        <li class="current-menu-item current_page_item menu-item-has-children"><a href="projects.php">المشاريع </a>
             <ul class="sub-menu">
                 <li> <a href="#">مشروع1</a> </li>
                 <li> <a href="#">مشروع2</a> </li>

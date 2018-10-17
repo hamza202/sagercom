@@ -89,12 +89,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 class="page-title">من نحن</h1>
+                    <h1 class="page-title">المشاريع</h1>
                     <ul>
                         <li>
                             <a class="active" href="index.php">الرئيسية</a>
                         </li>
-                        <li>من نحن</li>
+                        <li>المشاريع</li>
                     </ul>
                 </div>
             </div>
