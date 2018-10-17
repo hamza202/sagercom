@@ -94,7 +94,7 @@
                         <li>
                             <a class="active" href="index.php">الرئيسية</a>
                         </li>
-                        <li>من نحن</li>
+                        <li>كلمة المدير</li>
                     </ul>
                 </div>
             </div>
