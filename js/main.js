@@ -128,6 +128,7 @@
 		owlCarousel.owlCarousel({
 			loop: (loop ? true : false),
 			items: (items ? items : 4),
+			rtl:true,
 			lazyLoad: true,
 			margin: (margin ? margin : 0),
 			//stagePadding: (stagePadding ? stagePadding : 0),

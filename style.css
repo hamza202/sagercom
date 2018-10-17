@@ -3843,7 +3843,7 @@ h3.title-border:after {
   margin-bottom: 5px;
 }
 .rs-project-details .top-images .inner-top .inner .details ul li span {
-  float: right;
+  float: left;
   text-transform: capitalize;
   font-weight: normal;
 }
