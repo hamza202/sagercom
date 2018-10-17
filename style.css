@@ -3039,7 +3039,7 @@ h3.title-border:after {
 .contact-page .contact-form-area .btn-send {
   background: #78143a;
   font-weight: 700;
-  color: #101010;
+  color: #fff;
   font-size: 15px;
   line-height: 24px;
   border: none;
@@ -4515,7 +4515,7 @@ h3.title-border:after {
   height: 50px;
   line-height: 50px;
   background: #78143a;
-  color: #101010;
+  color: #fff;
   margin: 0 auto 15px;
   font-size: 20px;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);

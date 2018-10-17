@@ -32,7 +32,7 @@
         <!--End Icons -->
 
         <!--Project Menu Start-->
-        <li><a href="#">تواصل معنا</a>
+        <li><a href="contact.php">تواصل معنا</a>
 
         </li>
         <!--Project Menu End-->

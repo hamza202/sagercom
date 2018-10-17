@@ -84,17 +84,17 @@
 
 <!-- Breadcrumbs Start -->
 <div class="rs-breadcrumbs sec-color">
-    <img src="images/banner/service-details.jpg" alt="Breadcrubs"/>
+    <img src="images/banner/contact.jpg" alt="Breadcrubs"/>
     <div class="breadcrumbs-inner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 class="page-title">كلمة المدير</h1>
+                    <h1 class="page-title">تواصل معنا</h1>
                     <ul>
                         <li>
                             <a class="active" href="index.php">الرئيسية</a>
                         </li>
-                        <li>كلمة المدير</li>
+                        <li>تواصل معنا</li>
                     </ul>
                 </div>
             </div>
@@ -103,31 +103,89 @@
 </div>
 <!-- Breadcrumbs End -->
 
-<!-- History Section Start -->
-<div class="history-section sec-spacer">
+<!-- Contact Start Here -->
+<div class="contact-page3 contact-page sec-spacer">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3 class="title-border">كلمة رئيس مجلس الأدارة</h3>
-
-                <div class="director-img-container pull-left">
-                    <img class="img-responsive" src="images/manegar.jpg">
+        <div class="row control-inner">
+            <div class="col-sm-4">
+                <div id="address" class="info-details">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <div class="info-text">
+                        مكة المكرمة<br>
+                        حي النزهة - وقف ابراج الفلاح
+                    </div>
                 </div>
-                <p class="text-justify">
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-                    ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
-                    هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً.
-                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
-                    ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً،دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.
-                    هذا النص يمكن أن يتم تركيبه على أي تصميم دون مشكلة فلن يبدو وكأنه نص منسوخ، غير منظم، غير منسق، أو حتى غير مفهوم. لأنه مازال نصاً بديلاً ومؤقتاً<span class=""></span>
-                </p>
+            </div>
+            <div class="col-sm-4">
+                <div id="phone" class="info-details">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <div class="info-text">
+                        الهاتف: <a href="tel:559265592 (966+)">  559265592 (966+) </a><br>
+                        فاكس: <a href="tel:559265592 (966+)">559265592 (966+)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div id="email" class="info-details">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div class="info-text">
+                        بريد الكتروني: <a href="mailto:info@info.com">info@info.com</a><br>
+                        موقع الكتروني: <a href="#">www.sa.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 mb-margin">
+                        <div class="cmap2" id="googleMap"></div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="contact-form-area">
+                            <div id="form-messages"></div>
+                            <form  method="post" action="#">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="form-group">
+                                                <label>الاسم </label>
+                                                <input type="text" id="lname" name="lname" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class=" col-xs-12">
+                                            <div class="form-group">
+                                                <label>بريد الكتروني</label>
+                                                <input type="email" id="email" name="email" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <label>الرسالة</label>
+                                                <textarea cols="40" rows="10" id="message" name="message" class="textarea form-control"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group mb-0">
+                                                <button class="btn-send" type="submit">ارسال</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- History Section End -->
+
+<!-- contact End  -->
 
 <!-- Footer Start -->
 <?php include 'footer.php' ?>
@@ -167,6 +225,8 @@
 <!-- contact form js -->
 <script src="js/contact.form.js"></script>
 <!-- quote popup form js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgC6ZapXdUzFdeQOFhdm_wucwlDMMQ8CQ"></script>
+
 <!-- main js -->
 <script src="js/main.js"></script>
 </body>

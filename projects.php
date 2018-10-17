@@ -84,7 +84,7 @@
 
 <!-- Breadcrumbs Start -->
 <div class="rs-breadcrumbs sec-color">
-    <img src="images/banner/about.jpg" alt="Breadcrubs"/>
+    <img src="images/banner/project.jpg" alt="Breadcrubs"/>
     <div class="breadcrumbs-inner">
         <div class="container">
             <div class="row">
