@@ -1540,6 +1540,9 @@ h3.title-border:after {
 .services-section#services-sections {
   padding-bottom: 50px;
 }
+.pt-20{
+  padding-top: 20px;
+}
 @media screen and (max-width: 590px) {
   .services-section .col-xs-6 {
     width: 100%;

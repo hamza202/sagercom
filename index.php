@@ -35,18 +35,31 @@
         <div class="menu-area menu-sticky1">
             <div class="container btm-toolbar">
                 <div class="row">
-                    <div class="col-sm-4 hidden-xs hidden-sm">
+                    <div class="col-sm-3 hidden-xs hidden-sm">
                         <div class="toolbar-contact">
                             <a href="tel:+(+088)589-8745"> اتصل بنا 00966559265592</a><i class="fa fa-phone"></i>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
-                        <div class="logo-area text-center">
-                            <a href="index.html"><img src="images/logo2.png" class="big-logo" alt="logo">
-                                <img src="images/white-logo.png" class="small-logo" alt="logo"></a>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="logo-area text-left ">
+                                    <a href="index.php">
+                                        <img src="images/roaya.png" class="big-logo pt-20" alt="logo">
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="logo-area text-left ">
+                                    <a href="index.php">
+                                        <img src="images/logo2.png" class="big-logo" alt="logo">
+                                        <img src="images/white-logo.png" class="small-logo" alt="logo"></a>
+                                </div>
+                            </div>
+
                         </div>
+
                     </div>
-                    <div class="col-sm-4 hidden-xs hidden-sm">
+                    <div class="col-sm-3 hidden-xs hidden-sm">
                         <div class="toolbar-share-icon">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
