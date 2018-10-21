@@ -54,6 +54,7 @@
 	.middle-header-home5 .header-contact .widget-text .info-text span{
 		font-size: 14px;
 	}
+
 	.sidebar-area .newsletter-area {
 	    padding: 30px 10px;
 	}
@@ -115,7 +116,11 @@
 	} 
 
 }
-
+@media (min-width: 992px) {
+	.rr-logo{
+		display: none !important;
+	}
+}
 /* Medium Layout: 991px. */
 @media only screen and (max-width: 991px) {
 	.menu-sticky.sticky,

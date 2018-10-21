@@ -1543,6 +1543,11 @@ h3.title-border:after {
 .pt-20{
   padding-top: 20px;
 }
+.roayah .big-logo{
+  max-width: 200px;
+  padding-top: 58px;
+}
+
 @media screen and (max-width: 590px) {
   .services-section .col-xs-6 {
     width: 100%;
@@ -1556,6 +1561,7 @@ h3.title-border:after {
   .services-section .single-service {
     margin-bottom: 30px;
   }
+
 }
 @media screen and (max-width: 991px) {
   .big-logo{
@@ -4772,6 +4778,9 @@ h3.title-border:after {
   border: 2px dashed #78143a;
   border-radius: 5px;
   margin-left: 15px;
+}
+.rr-logo img{
+  max-width: 131px !important;
 }
 @media (max-width: 991px) {
   .index #rs-header .menu-area .logo-area a{

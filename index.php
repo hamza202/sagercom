@@ -9,7 +9,7 @@
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php include 'style.php'?>
+    <?php include 'style.php' ?>
 </head>
 <body class="home1">
 <!--Preloader area start here-->
@@ -43,9 +43,11 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="row">
                             <div class="col-xs-6">
-                                <div class="logo-area text-left ">
+                                <div class="logo-area text-left roayah">
                                     <a href="index.php">
-                                        <img src="images/roaya.png" class="big-logo pt-20" alt="logo">
+                                        <img src="images/roaya.png" class="big-logo " alt="logo">
+                                    </a>
+
                                 </div>
                             </div>
                             <div class="col-xs-6">
@@ -76,11 +78,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div id="logo-sticky" class="text-center">
-                                <a href="index.html"><img src="images/logo-small.png" alt="logo"></a>
-                            </div>
+
                             <a class="rs-menu-toggle"><i class="fa fa-bars"></i></a>
-                            <?php include 'menu.php'?>
+                            <?php include 'menu.php' ?>
                         </div>
                     </div>
                 </div>
@@ -113,6 +113,9 @@
                                             نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد
                                             مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى
                                             يولدها التطبيق. </p>
+                                        <div class="text-center rr-logo">
+                                            <img src="images/roaya.png" alt="logo">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -132,6 +135,9 @@
                                             نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد
                                             مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى
                                             يولدها التطبيق. </p>
+                                        <div class="text-center rr-logo">
+                                            <img src="images/roaya.png" alt="logo">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +186,7 @@
                             <div class="display-table">
                                 <div class="display-table-cell">
                                     <h3 class="p-title"><a href="#">فندق القرشي<br>
-                                        <span>سعد القرشي</span></a></h3>
+                                            <span>سعد القرشي</span></a></h3>
                                     <p class="p-desc">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
                                         هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص
                                         الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
@@ -227,7 +233,7 @@
                             <div class="display-table">
                                 <div class="display-table-cell">
                                     <h3 class="p-title"><a href="#">فندق 11<br>
-                                        <span>الشيخ ربيع</span></a></h3>
+                                            <span>الشيخ ربيع</span></a></h3>
                                     <p class="p-desc">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
                                         هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص
                                         الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق</p>
@@ -729,7 +735,7 @@
 <!-- Counter Down Section End Here-->
 
 <!-- Footer Start -->
-<?php include 'footer.php'?>
+<?php include 'footer.php' ?>
 <!-- Footer End -->
 
 <!-- start scrollUp  -->
