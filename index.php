@@ -78,7 +78,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-
+                            <div id="logo-sticky" class="text-center">
+                                <a href="index.php"><img src="images/logo-small.png" alt="logo"></a>
+                            </div>
                             <a class="rs-menu-toggle"><i class="fa fa-bars"></i></a>
                             <?php include 'menu.php' ?>
                         </div>
