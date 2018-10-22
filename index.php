@@ -46,6 +46,8 @@
                                 <div class="logo-area text-left roayah">
                                     <a href="index.php">
                                         <img src="images/roaya.png" class="big-logo " alt="logo">
+                                        <img src="images/roaya.png" class="small-logo" alt="logo"></a>
+
                                     </a>
 
                                 </div>

@@ -209,12 +209,13 @@
 			$('.project-filter').on('click', 'button', function() {
 				var filterValue = $(this).attr('data-filter');
 				$grid.isotope({
-					filter: filterValue
+					filter: filterValue,
 				});
 			});
 			var $grid = $('.grid').isotope({
 				itemSelector: '.grid-item',
 				percentPosition: true,
+                isOriginLeft: false,
 				masonry: {
 					columnWidth: '.grid-item',
 				}

@@ -4845,3 +4845,8 @@ h3.title-border:after {
   }
 
 }
+.index #rs-header .menu-area .logo-area.roayah a img.small-logo{
+  margin-left: -63px;
+  width: 189px !important;
+  margin-top: 42px;
+}

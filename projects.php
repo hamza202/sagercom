@@ -139,29 +139,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid-item filter2">
-                    <div class="project-item">
-                        <div class="project-img">
-                            <img src="images/project/home1.jpg" alt="Project Image" />
-                        </div>
-                        <div class="headding-title">
-                            <h3><a href="project-details.php">فندق 5 نجوم<br> احمد محمد</a></h3>
-                            <a href="project-details.php" class="project-link">شاهد المشروع...</a>
-                        </div>
-                        <div class="project-content">
-                            <div class="overly-border"></div>
-                            <div class="display-table">
-                                <div class="display-table-cell">
-                                    <h3 class="p-title"><a href="project-details.php">فندق 5 نجوم<br> احمد محمد </a></h3>
-                                    <p class="p-desc"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
-                                        هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص
-                                        الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
-                                    <a href="project-details.php" class="project-link">شاهد المشروع...</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="grid-item filter3">
                     <div class="project-item">
                         <div class="project-img">
